@@ -7,8 +7,7 @@
 - 📄 Click to visit Design project: [Webdesign Project](https://ba-anthony.github.io/learn/design/)
 
 
-- 📄 Click to visit Tshirt project: [Tshirt price Calculator](https://ba-anthony.github.io/learn/tshirt/)
-
+- 📄 Click to visit Tshirt project: <a href="https://ba-anthony.github.io/learn/tshirt/" target="_blank">Tshirt price Calculator</a>
 
 
 
