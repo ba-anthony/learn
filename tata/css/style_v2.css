@@ -17,17 +17,29 @@
 }
 
 .box-content {
-    width: 300px;
+    width: 280px;
     height: 80px;
-    background-color: white;
-    padding: 0 1rem;
+    background-color: white;    
 }
 .box-content h2 {
     font-size: 46px !important;
     font-family: KohinoorDevanagari-Bold, sans-serif !important;
     text-align: center !important;
-    line-height: 80px;
+    line-height: 80px !important;
     color: #0A0A5F;
+    letter-spacing: 0px !important;
+}
+
+@media only screen and (max-width: 580px) {
+    .box-content {
+        width: 260px;
+        height: 80px;
+        background-color: white; 
+        margin-left: 32px;   
+    }
+    .box-content h2 {
+        font-size: 36px !important;
+    }
 }
 
 
@@ -55,7 +67,12 @@
     font-size: 18px;
     line-height: 14px !important;
 }
-
+@media only screen and (max-width: 580px) {
+    .bread-crumbs ul {
+        padding: 0;
+        margin: 0 0 0 32px;
+    }
+}
 
 /* grid section */
 .grid-flex  {
@@ -125,6 +142,28 @@
 .grid-text {
     font-size: 18px;
 }
+.person-main {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: -12%;
+    width: 460px;
+    height: auto;
+}
+.person-main img{
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width:580px) {
+    .person-main {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:767px) {
+    .person-main {
+
+    }
+}
 
 @media only screen and (max-width: 1280px) {
     .flex-list {
@@ -137,6 +176,7 @@
         width: 455px;
         display: none;
     }
+    
 }
 @media only screen and (min-width: 1281px) {
     .person-bg {
@@ -145,6 +185,9 @@
         bottom: -7%;
         right: 0%;
         width: 460px;
+    }
+    .person-main {
+        display: none;
     }
 }
 
@@ -217,7 +260,7 @@
 }
 .box-body h4 {
     font-size: 36px;
-    font-family: KohinoorDevanagari-Bold,sans-serif;
+    font-family: KohinoorDevanagari-Bold,sans-serif !important;
     font-weight: bold;
 }
 .text-2 {
