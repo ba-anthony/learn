@@ -154,6 +154,7 @@
     width: 100%;
     height: auto;
 }
+<<<<<<< HEAD
 @media only screen and (max-width:580px) {
     .person-main {
         width: 100%;
@@ -164,17 +165,52 @@
 
     }
 }
+=======
+>>>>>>> 006c2946a5959195093cd50dcbccdc7a1a2a6a1b
 
-@media only screen and (max-width: 1280px) {
-    .flex-list {
-        justify-content: center !important;
+/* code for responsive */
+
+@media only screen and (max-width:580px) {
+    .person-main {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .person-bg {
+        display: none;
+    }
+    .row-fix .col-lg-6 {
+        width: 100% !important;
+    }  
+}
+
+@media only screen and (min-width:1025px) {
+    .person-main {
+        display: none;
+    }
+    .person-bg {
+        display: block;
     }
     .person-bg {
         position: absolute;
         bottom: -7%;
-        right: 4%;
-        width: 455px;
-        display: none;
+        right: 0%;
+        width: 370px;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .person-bg {
+        position: absolute;
+        bottom: -7%;
+        right: 0%;
+        width: 430px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .flex-list {
+        justify-content: center !important;
     }
     
 }
@@ -190,7 +226,6 @@
         display: none;
     }
 }
-
 @media only screen and (max-width: 991px) {
     .flex-list {
         justify-content: start !important;
@@ -200,7 +235,7 @@
         margin:28px 0px;
     }
 }
-
+/* code for responsive ends here... */
 
 /* grid flex section two  */
 
