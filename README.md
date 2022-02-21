@@ -7,6 +7,8 @@
 
 - 📄 Click to visit Tshirt project: <a href="https://ba-anthony.github.io/learn/tshirt/" target="_blank">Tshirt price Calculator</a>
 
+- 📄 Click to visit Tshirt project: <a href="https://ba-anthony.github.io/learn/ajax/" target="_blank">AJAX Exercises</a>
+
 
 
  
