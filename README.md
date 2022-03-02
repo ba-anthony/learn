@@ -9,6 +9,8 @@
 
 - 📄 Click to visit Tshirt project: <a href="https://ba-anthony.github.io/learn/ajax/" target="_blank">AJAX Exercises</a>
 
+- 📄 Click to visit Vue Js project: <a href="https://ba-anthony.github.io/learn/food-order/" target="_blank">Vue JS project</a>
+
 
 
  
