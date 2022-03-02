@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.423" height="98.977" viewBox="0 0 93.423 98.977">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_500" data-name="Rectangle 500" width="93.423" height="98.977" fill="none" stroke="#707070" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1783" data-name="Group 1783" transform="translate(-1012.839 -607.729)">
+    <g id="Group_1012" data-name="Group 1012" transform="translate(1012.839 607.729)">
+      <g id="Group_1003" data-name="Group 1003" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_2587" data-name="Path 2587" d="M207.458,102.05,195.68,114.262M183.9,102.05l11.78,12.212M178.934,62.31a6.8,6.8,0,0,1,3.781-3.267c2.583-.94,5.477-.189,7.978.951,3.608,1.648,6.761,3.587,10.808,4.034a18.549,18.549,0,0,0,10.854-1.771m1.323,9.131s1.057-21.2-18-21.2-18.1,21.233-18.1,21.233m0,0c-1.981.565-3.414,2.926-3.414,5.837,0,3.2,1.744,5.738,4.026,5.949A21.908,21.908,0,0,0,185.694,95l-.586,5.062a2.789,2.789,0,0,1-1.209,1.989,2.747,2.747,0,0,1-.78.365l-12.75,3.7a12.063,12.063,0,0,0-5,2.618A14.727,14.727,0,0,0,160.3,117.2l-2.993,14.981a.715.715,0,0,0,.144.6.736.736,0,0,0,.557.258h61.836M230.4,114.887a14.772,14.772,0,0,0-4.4-6.154,12.062,12.062,0,0,0-4.958-2.6l-12.795-3.715a2.748,2.748,0,0,1-.78-.365,2.8,2.8,0,0,1-1.212-1.989L205.663,95a21.844,21.844,0,0,0,7.5-11.794c2.282-.2,4.037-2.743,4.037-5.949,0-2.964-1.486-5.358-3.526-5.869" transform="translate(-156.08 -48.971)" fill="none" stroke="#692489" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+        <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="14.228" cy="14.227" rx="14.228" ry="14.227" transform="translate(63.754 69.309)" fill="none" stroke="#692489" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+    <path id="Path_2597" data-name="Path 2597" d="M165.133,71.594l17.46,18.682.051-.048.051.048,17.463-18.682M213.866,96.91h14.326m-7.163,7.163V89.747" transform="translate(870.792 594.356)" fill="none" stroke="#692489" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

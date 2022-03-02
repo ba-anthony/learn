@@ -1,0 +1,492 @@
+
+.custom-charts-area section.charts {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 3rem;
+}
+.custom-charts-area section.charts > div {
+    width: calc(50% - 2em);
+}
+.custom-charts-area section.charts > div h2 span {
+    text-transform: lowercase;
+}
+.custom-charts-area section.charts > div h4 {
+    color: #823695;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+
+}
+.custom-charts-area section.charts > div p {
+    text-align: center;
+}
+.custom-charts-area section.charts > div p.copy {
+    font-weight: 900;
+}
+.custom-charts-area section.charts > div p.copy.pi {
+    opacity: 0;
+}
+.custom-charts-area section.charts > div figure {
+    position: relative;
+}
+.custom-charts-area section.charts > div figure.graph {
+    font-size: 16px;
+    margin-top: 90px;
+    max-width: 400px;
+	display:block;
+	margin:0 auto;
+	width:100%;
+}
+.custom-charts-area section.charts > div figure.graph p {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    opacity: 0;	
+    font-weight: 100;
+}
+.custom-charts-area section.charts > div figure.graph p.copy {
+    color: #823695;
+    font-weight: 400;
+    left: 60%;
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    transform: translateX(-40%);
+	font-size:42px;
+    width: 100%;
+   /* font-weight: lighter;*/
+}
+.custom-charts-area section.charts > div figure.graph p.copy span{font-size:21px; display:block;font-weight:bold;}
+
+.custom-charts-area section.charts2 > div figure.graph p.copy {
+    top:70px;
+}
+.custom-charts-area section.charts > div figure.graph div.y-axis {
+    position: relative;
+}
+.custom-charts-area section.charts > div figure.graph div.y-axis h4 {
+    display: inline-block;
+    left: -3em;
+    position: absolute;
+    top: 50%;
+	
+    transform: rotate(-90deg) translateX(15%);
+}
+.custom-charts-area section.charts > div figure.graph div.y-axis ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 0 0 2em;
+    padding: 0;
+    padding-right: 10px;
+    position: relative;
+}
+.custom-charts-area section.charts > div figure.graph div.y-axis ul:after {
+    border-right: 1px solid #63676b;
+    content: "";
+    display: block;
+    height: calc(100% - 10px);
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+}
+.custom-charts-area section.charts > div figure.graph div.y-axis ul li {
+    color: #63676b;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 0.875em;
+      margin-bottom: 2rem;
+    position: relative;
+    text-align: right;
+}
+
+.custom-charts-area section.charts > div figure.graph div.y-axis ul li:last-child {
+    margin-bottom: 0;
+}
+.custom-charts-area section.charts > div figure.graph div.y-axis ul li:after {
+    border-top: 1px solid #63676b;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    width: 8px;
+}
+.custom-charts-area section.charts > div figure.graph div.x-axis {
+    border-top: 1px solid #63676b;
+    margin-left: 58px;
+    margin-top: -10px;
+    padding-top: 5px;
+    width: 100%;
+}
+.custom-charts-area section.charts > div figure.graph div.x-axis h4 {
+    text-align: center;
+    color: #878288 !important;
+    font-size: 1.125rem !important;
+}
+.custom-charts-area section.charts > div figure.graph div.bar {
+    bottom:23px;
+    height: 0;
+    left: 60%;
+    position: absolute;
+    transform: translateX(-36%);
+    width: 210px;
+}
+.custom-charts-area section.charts > div figure.graph div.bar.bar1,
+.custom-charts-area section.charts > div figure.graph div.bar.bar3 {
+    background-color: rgba(99, 103, 107, 0.4);
+}
+.custom-charts-area section.charts > div figure.graph div.bar.bar1 p {
+    position: absolute;
+    left: 50%;
+    font-size: 25px;
+    transform: translateX(-50%);
+    font-weight: lighter;
+    width: 100%;
+	color: #63666B;
+    top: -21%;
+}
+.custom-charts-area section.charts > div figure.graph div.bar.bar3 p {
+    color: #63676b;
+    margin-top: -25px;
+}
+.custom-charts-area section.charts > div figure.graph div.bar.bar2,
+.custom-charts-area section.charts > div figure.graph div.bar.bar4 {
+    background-color: #823695;
+}
+.custom-charts-area section.charts > div figure.graph div.bar.bar2 p,
+.custom-charts-area section.charts > div figure.graph div.bar.bar4 p {
+    /*margin-top: 52%;*/
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.custom-charts-area section.charts > div figure.piechart {
+    display: flex;
+    justify-content: center;
+    margin: 3em 0 1em;
+}
+.custom-charts-area section.charts > div figure.piechart div.circle {
+    margin: 0 15px;
+    position: relative;
+}
+.custom-charts-area section.charts > div figure.piechart div.circle svg.progress-ring {
+    transform: rotate(90deg);
+}
+.custom-charts-area section.charts > div figure.piechart div.circle svg.progress-ring circle.animate {
+    stroke-dasharray: calc(2 * 3.14 * 85);
+    stroke-dashoffset: calc(((100 - 0) / 100) * (2 * 3.14 * 85));
+    transform: scaleY(-1) scaleX(-1);
+}
+.custom-charts-area section.charts > div figure.piechart div.circle p {
+    color: #823695;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.6em;
+    left: 50%;
+    line-height: 1em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.custom-charts-area section.charts > div figure.piechart div.circle p span {
+    opacity: 0;
+}
+.custom-charts-area section.charts > div figure.piechart div.circle p span.s1 {
+    color: #63676b;
+    display: block;
+    font-size: 0.5em;
+    font-weight: 200;
+    line-height: 1em;
+    margin-bottom: 0.4em;
+    text-transform: uppercase;
+}
+.custom-charts-area section.charts div.animate {
+    margin-bottom: 0rem;
+	width:100%;
+}
+.custom-charts-area section.charts div.animate.on figure.graph div.bar.bar2 {
+    -webkit-animation: bar2 0.5s 0.5s ease-in forwards;
+    animation: bar2 0.5s 0.5s ease-in forwards;
+	 
+}
+.custom-charts-area section.charts2 div.animate.on figure.graph div.bar.bar2 {
+    -webkit-animation: bar5 0.5s 0.5s ease-in forwards;
+    animation: bar5 0.5s 0.5s ease-in forwards;
+	 
+}
+.custom-charts-area section.charts. div.animate.on figure.graph div.bar.bar2 {
+    -webkit-animation: bar2 0.5s 0.5s ease-in forwards;
+    animation: bar2 0.5s 0.5s ease-in forwards; 
+}
+
+.custom-charts-area section.charts div.animate.on figure.graph div.bar.bar4 {
+    -webkit-animation: bar4 0.5s 0.5s ease-in forwards;
+    animation: bar4 0.5s 0.5s ease-in forwards;
+}
+.custom-charts-area section.charts div.animate.on figure.graph div.bar.bar2 p,
+.custom-charts-area section.charts div.animate.on figure.graph div.bar.bar4 p {
+    -webkit-animation: fadeIn 0.5s 1s ease-in forwards;
+    animation: fadeIn 0.5s 1s ease-in forwards;
+}
+.custom-charts-area section.charts div.animate.on figure.graph div.bar.bar1 {
+    -webkit-animation: bar2 0.5s 0.5s ease-in forwards, bar1 0.5s 1s ease-in forwards;
+    animation: bar2 0.5s 0.5s ease-in forwards, bar1 0.5s 1s ease-in forwards;
+}
+.custom-charts-area section.charts div.animate.on figure.graph div.bar.bar3 {
+    -webkit-animation: bar4 0.5s 0.5s ease-in forwards, bar3 0.5s 1s ease-in forwards;
+    animation: bar4 0.5s 0.5s ease-in forwards, bar3 0.5s 1s ease-in forwards;
+}
+.custom-charts-area section.charts div.animate.on figure.graph div.bar.bar1 p,
+.custom-charts-area section.charts div.animate.on figure.graph div.bar.bar3 p {
+    -webkit-animation: fadeIn 0.5s 1.5s ease-in forwards;
+    animation: fadeIn 0.5s 1.5s ease-in forwards;
+}
+.custom-charts-area section.charts div.animate.on figure.graph p.copy {
+    -webkit-animation: fadeIn 0.5s 2s ease-in forwards;
+    animation: fadeIn 0.5s 2s ease-in forwards;
+}
+.custom-charts-area section.charts div.animate.on figure.piechart div.circle p span.s1 {
+    -webkit-animation: fadeIn 0.5s 0.5s ease-in forwards;
+    animation: fadeIn 0.5s 0.5s ease-in forwards;
+}
+.custom-charts-area section.charts div.animate.on figure.piechart div.circle p span.s2 {
+    -webkit-animation: fadeIn 0.5s 1.5s ease-in forwards;
+    animation: fadeIn 0.5s 1.5s ease-in forwards;
+}
+.custom-charts-area section.charts div.animate.on p.copy.pi {
+    -webkit-animation: fadeIn 0.5s 2s ease-in forwards;
+    animation: fadeIn 0.5s 2s ease-in forwards;
+}
+.custom-charts-area section.charts > p.footnote {
+    font-size: 1em;
+    width: 100%;
+}
+@-webkit-keyframes bar1 {
+    to {
+        height: calc(100px + 31% - 4px);
+    }
+}
+@keyframes bar1 {
+    to {
+        height: calc(100px + 31% - 4px);
+    }
+}
+@-webkit-keyframes bar2 {
+    to {
+          height: calc(100px + 25% - 4px);
+    }
+}
+@keyframes bar2 {
+    to {
+        height: calc(100px + 25% - 4px);
+    }
+}
+
+@-webkit-keyframes bar5 {
+    to {
+          height: calc(100px + 22.5% - 4px);
+    }
+}
+@keyframes bar5 {
+    to {
+        height: calc(100px + 22.5% - 4px);
+    }
+}
+
+@-webkit-keyframes bar3 {
+    to {
+        height: calc(100px + 44% - 4px);
+    }
+}
+@keyframes bar3 {
+    to {
+        height: calc(100px + 44% - 4px);
+    }
+}
+@-webkit-keyframes bar4 {
+    to {
+        height: calc(100px + 39.3% - 4px);
+    }
+}
+@keyframes bar4 {
+    to {
+        height: calc(100px + 39.3% - 4px);
+    }
+}
+@-webkit-keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+} 
+
+.charts2 .y-axis h4 {
+    display: none !important;
+}
+
+@media only screen and (max-width: 767px) { 
+
+.custom-charts-area section.charts > div figure.graph div.bar {
+    bottom: 32px;
+}
+	.charts2>div figure.graph div.y-axis h4 {
+		font-size:1rem !important;
+	}
+    .custom-charts-area section.charts {
+        padding: 0 2rem;
+    }
+	
+
+    .charts2>div figure.graph div.y-axis h4 {
+        display: block !important;
+		font-size:1rem !important;
+    }
+    .custom-charts-area section.charts > div figure.graph div.x-axis {
+        width: 89%;
+    }
+
+    .custom-charts-area section.charts>div figure.graph div.y-axis h4 {
+    left: -3.5em;
+    font-size: 1rem;
+}
+
+.custom-charts-area section.charts.charts2 > div figure.graph div.x-axis {
+    margin-top: -10.5px;
+}
+.custom-charts-area section.charts > div figure.graph div.x-axis{
+    margin-top: -10.5px;
+}
+
+    .custom-charts-area section.charts>div figure.graph div.y-axis ul {
+        margin: 0 0 0 1em;
+    }
+
+    .custom-charts-area section.charts>div figure.graph div.x-axis {
+        margin-left: 43px;
+    }
+
+    .custom-charts-area section.charts>div figure.graph div.bar {
+        
+    width: 160px;
+
+    }
+
+    .custom-charts-area section.charts>div figure.graph div.bar {
+        left: 51%;
+    }
+
+    .custom-charts-area section.charts>div figure.graph div.bar.bar1 p {
+        font-size: 1rem;
+    }
+
+    .custom-charts-area section.charts>div figure.graph div.bar.bar2 p,
+    .custom-charts-area section.charts>div figure.graph div.bar.bar4 p {
+        font-size: 1rem;
+    }
+
+
+    .custom-charts-area section.charts>div figure.graph p.copy {
+        font-size: 1.25rem !important;
+    }
+
+    .custom-charts-area section.charts>div figure.graph p.copy span {
+        font-size: 0.875rem !important;
+    }
+
+    .custom-charts-area section.charts>div figure.graph p.copy {
+        left: 52%;
+        top: 40px;
+        width: 60% !important;
+       
+    }
+
+
+
+    .clinical_benifit p {
+        font-size: 1rem;
+    }
+
+    .custom-charts-area section.charts>div figure.graph div.x-axis h4 {
+        font-size: 16px;
+        margin-top: 6px;
+        margin: 0;
+    }
+    .custom-charts-area section.charts > div figure.graph div.bar.bar1.bar_set1, .custom-charts-area section.charts > div figure.graph div.bar.bar2.bar_set {
+        bottom: 38px !important;
+    }
+}
+
+@media screen and (max-width: 952px) {
+    .custom-charts-area section.charts > div {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .custom-charts-area section.charts > div figure.graph {
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .custom-charts-area section.charts > div figure.piechart div.circle {
+        margin: 0 5px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .custom-charts-area section.charts > div figure.piechart {
+        flex-direction: column;
+    }
+    .custom-charts-area section.charts > div figure.piechart div.circle {
+        margin: 15px 0;
+        text-align: center;
+    }
+} 
+@media only screen and (max-width: 767px){
+    .custom-charts-area section.charts div.animate.on figure.graph p.copy.yl-border.upper{
+        left: 53%;
+    }
+}
+@media screen and (max-width: 480px){
+    
+}
+.custom-charts-area section.charts > div figure.graph p.copy.yl-border.upper {
+    left: 61.5%;
+}
+@media screen and (max-width: 480px){
+    .custom-charts-area section.charts > div figure.graph p.copy.yl-border.upper {
+        left: 53%;
+    }
+    }
+    @media screen and (max-width: 375px){
+        
+        .custom-charts-area section.charts div.animate.on figure.graph p.copy.yl-border.upper {
+            font-size: 1rem !important;
+        }
+    }
+
+    @media(min-width: 1280px) and (max-width: 1440px){
+        .custom-charts-area section.charts > div figure.graph p.copy.yl-border.upper {
+            left: 63.5%;
+        }
+    }
